@@ -20,5 +20,6 @@
     },
     "require": {
         "intervention/image": "^3.6"
-    }
+    },
+    "minimum-stability": "dev"
 }
