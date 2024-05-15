@@ -1,0 +1,24 @@
+{
+    "name": "carlosyassuo/laravel",
+    "autoload": {
+        "psr-4": {
+            "CarlosYassuo\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Ito",
+            "email": "yassuo2@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CarlosYassuo\\Laravel\\Providers\\InspirationProvider"
+            ]
+        }
+    },
+    "require": {
+        "intervention/image": "^3.6"
+    }
+}
